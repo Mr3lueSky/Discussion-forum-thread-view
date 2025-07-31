@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel=stylesheet href="styles.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar-wrapper">
+            <div class="container-fluid px-0 py-2 text-center position-fixed bg-white border-bottom z-2">
+                <div class="row flex-nowrap text-align-center py-2">
+                    <div class="col-2">
+                        <div class="navbar-brand">
+                            <img src="logo.png" alt="Logo" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col mx-2 mx-sm-5">
+                        <input type="text" class="form-control" id="search" placeholder="Search...">
+                    </div>
+                    <div class="col-auto">
+                        <img id="notification" src="notification.png" alt="Column Image" class="img-fluid">
+                    </div>
+                    <div class="col-auto">
+                        <img id="profile" src="profile.png" alt="Column Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-0">
+        <div class="row mx-0 h-100">
+            <div id="sidebar-wrapper">
+                <div class="col-md-3 d-flex flex-column sidebar border-end position-fixed">
+                    <div class = "my-4">My Dashboard</div>
+                    <div class = "my-4">Projects</div>
+                    <div class = "my-4">Settings</div>
+                </div>
+                <!-- <div class="col-2 ps-5 position-fixed">
+                    <div class="px-0">
+                        <div>
+                            My Projects
+                        </div>
+                        <div>
+                            Dashboard
+                        </div>
+                        <div>
+                            Settings
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="main-thread col-8 mx-3 d-flex flex-column">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mt-4">
+                        <li class="breadcrumb-item">Projects</li>
+                        <li class="breadcrumb-item">Discussion Forum</li>
+                        <li class="breadcrumb-item active" aria-current="page">How to design a search bar</li>
+                    </ol>
+                </nav>
+                <div class="card" id="main-content">
+                    <div class="card-body">
+                        <h3 class="card-title fs-1">How to design a search bar</h3>
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="JYOTHISH T R.jpg" alt="dp" class="rounded-circle" width="45px" height="45px">
+                            <div class="ms-2">
+                                <small class="text-muted">Posted by</small>
+                                <div>Jyothish T R</div>
+                            </div>
+                        </div>
+                        <p class="card-text content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea id, ad
+                            doloremque laborum quaerat architecto totam ab, sequi tempore, excepturi unde repudiandae
+                            placeat ipsa quidem? Deleniti enim sint suscipit vitae! Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Error autem alias, esse dolores delectus quidem sequi natus
+                            qui ullam voluptate ipsam sed consequatur, inventore enim, incidunt eos nobis aperiam
+                            distinctio!
+                        </p>
+                        <div>
+                            <input type="text" class="reply-input mt-3 form-control w-100" placeholder="Reply...">
+                        </div>
+                    </div>
+                </div>
+                <div class="display-7 mt-3">Replies</div>
+                <div class="card mt-3 reply-box">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="JYOTHISH T R.jpg" alt="dp" class="rounded-circle" width="45px" height="45px">
+                            <div class="ms-2">
+                                <div>Jyothish T R</div>
+                            </div>
+                        </div>
+                        <p class="card-text content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                            id rem nobis optio. Sint molestias inventore, veniam ut ad laboriosam maiores autem
+                            voluptatibus, est sequi fugit explicabo. Aliquam, repellendus eos. Lorem ipsum dolor, sit
+                            amet consectetur adipisicing elit. Nesciunt possimus nemo fuga ea, corporis inventore
+                            consequatur tenetur magnam impedit labore, doloremque ullam dolore obcaecati officiis at sed
+                            aut vel. Ad. laborum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+                            commodi laboriosam labore molestias, cumque saepe dolore harum iste quisquam minima, illum
+                            nam suscipit! Quia itaque voluptates ad quasi tenetur a.</p>
+                    </div>
+                </div>
+                <div class="card mt-3 reply-box">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="JYOTHISH T R.jpg" alt="dp" class="rounded-circle" width="45px" height="45px">
+                            <div class="ms-2">
+                                <div>Jyothish T R</div>
+                            </div>
+                        </div>
+                        <p class="card-text content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                            id rem nobis optio. Sint molestias inventore, veniam ut ad laboriosam maiores autem
+                            voluptatibus, est sequi fugit explicabo. Aliquam, repellendus eos. Lorem ipsum dolor, sit
+                            amet consectetur adipisicing elit. Nesciunt possimus nemo fuga ea, corporis inventore
+                            consequatur tenetur magnam impedit labore, doloremque ullam dolore obcaecati officiis at sed
+                            aut vel. Ad. laborum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+                            commodi laboriosam labore molestias, cumque saepe dolore harum iste quisquam minima, illum
+                            nam suscipit! Quia itaque voluptates ad quasi tenetur a.</p>
+                    </div>
+                </div>
+                <div class="card mt-3 reply-box">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="JYOTHISH T R.jpg" alt="dp" class="rounded-circle" width="45px" height="45px">
+                            <div class="ms-2">
+                                <div>Jyothish T R</div>
+                            </div>
+                        </div>
+                        <p class="card-text content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                            id rem nobis optio. Sint molestias inventore, veniam ut ad laboriosam maiores autem
+                            voluptatibus, est sequi fugit explicabo. Aliquam, repellendus eos. Lorem ipsum dolor, sit
+                            amet consectetur adipisicing elit. Nesciunt possimus nemo fuga ea, corporis inventore
+                            consequatur tenetur magnam impedit labore, doloremque ullam dolore obcaecati officiis at sed
+                            aut vel. Ad. laborum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+                            commodi laboriosam labore molestias, cumque saepe dolore harum iste quisquam minima, illum
+                            nam suscipit! Quia itaque voluptates ad quasi tenetur a.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>
