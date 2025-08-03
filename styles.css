@@ -178,11 +178,6 @@ table {
   font-weight: 700;
 }
 
-.sidebar{
-  min-height: 100vh;
-  display: flex;
-}
-
 #search {
   width: 50em; /* Adjust this value to control the length */
 }
@@ -190,11 +185,16 @@ table {
 .navbar-wrapper{
   height: 71px;
 }
-#sidebar-wrapper{
+/* #sidebar-wrapper{
   width:13rem;
   height:100vh;
-}
+  padding-left:0px;
+} */
 
 .sidebar {
-  width: 10rem;
+  width: 12rem;
+}
+
+.sidebar-tokens:hover{
+  background-color: #f0f0f0;
 }

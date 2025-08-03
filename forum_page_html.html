@@ -22,7 +22,7 @@
                             <img src="logo.png" alt="Logo" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col mx-2 mx-sm-5">
+                    <div class="col mx-2 mx-sm-1">
                         <input type="text" class="form-control" id="search" placeholder="Search...">
                     </div>
                     <div class="col-auto">
@@ -35,15 +35,15 @@
             </div>
         </div>
     </nav>
-    <div class="container mx-0">
+    <div class="container mx-0 px-0">
         <div class="row mx-0 h-100">
-            <div id="sidebar-wrapper">
-                <div class="col-md-3 d-flex flex-column sidebar border-end position-fixed">
-                    <div class = "my-4">My Dashboard</div>
-                    <div class = "my-4">Projects</div>
-                    <div class = "my-4">Settings</div>
-                </div>
-                <!-- <div class="col-2 ps-5 position-fixed">
+            <!-- <div id="sidebar-wrapper"> -->
+            <div class="col-md-3 d-flex flex-column sidebar border-end position-fixed">
+                <div class="px-5 py-4 sidebar-tokens">Dashboard</div>
+                <div class="px-5 py-4 sidebar-tokens">My Projects</div>
+                <div class="px-5 py-4 sidebar-tokens">Settings</div>
+            </div>
+            <!-- <div class="col-2 ps-5 position-fixed">
                     <div class="px-0">
                         <div>
                             My Projects
@@ -56,8 +56,8 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
-            <div class="main-thread col-8 mx-3 d-flex flex-column">
+            <!-- </div> -->
+            <div class="main-thread col-md-7 offset-md-2 d-flex flex-column">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mt-4">
                         <li class="breadcrumb-item">Projects</li>
@@ -143,8 +143,28 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+            <div class="col-md-3 my-5 py-2 d-flex flex-column">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Related Topics</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li class="list-group-item">Quisquam, votatibus! Quasi, doloremque.</li>
+                                <li class="list-group-item">Repudiandae, doloremque! Quasi, voluptatibus.</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="card my-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Recent Discussions</h5>
+                        <div id="content-recent-discussions">
+                            <ul class="list-group">
+                                <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                <li class="list-group-item">Quisquam, votatibus! Quasi, doloremque.</li>
+                                <li class="list-group-item">Repudiandae, doloremque! Quasi, voluptatibus.</li>
+                            </ul>
+                        </div>
+                    </div>
 
 </body>
 
